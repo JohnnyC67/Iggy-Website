@@ -1,0 +1,182 @@
+body {
+    background-color:rgb(255, 255, 255);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Main-button {
+    background-color:rgb(140, 180, 255);
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Main-button:hover {
+    background-color:rgb(70, 140, 255);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.Main-button:active {
+    background-color:rgb(140, 180, 255);
+    transition: background-color 0s;
+}
+
+.Food-item-text {
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.top-section {
+    background-color:rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px #000000;
+    padding-left: 0px;
+    margin-top: 0;
+}
+
+.top-section-image {
+    width: 16vw;
+    height: auto;
+    min-height: 100px;
+    min-width: 100px;
+    border: 1px solid white;
+    vertical-align: bottom;
+}
+
+.top-section-button {
+    display: inline-block;
+    height: 80%;
+    width: 42vw;
+    background-color:rgb(30, 30, 30);
+    padding-bottom: 10vh;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10vh;
+    border: 1px rgb(0, 0, 0);
+    vertical-align: center;
+    color:white;
+    font-family:'Abril Fatface';
+    font-size: 2.5vw;
+    justify-content: center;
+}
+
+.top-section-button:hover {
+    background-color:rgb(45, 45, 45);
+    transition: background-color 0.1s;
+}
+
+.top-section-button:active {
+    background-color:rgb(60, 60, 60);
+}
+
+.Body-image-left {
+    float: left;
+    width: 33vw;
+    height: auto;
+    padding-left: 6vw;
+    padding-right: 3vw;
+    padding-top: 20px;
+}
+
+.Body-image-right {
+    float: right;
+    width: 33vw;
+    height: auto;
+    padding-left: 3vw;
+    padding-right: 6vw;
+    padding-top: 20px;
+}
+
+.image-and-text-left {
+    vertical-align: top;
+    padding-right: 8vw;
+    padding-top: 60px;
+    font-size: 1.5vw;
+    font-family: "Georgia";
+    line-height: 30px;
+}
+
+.image-and-text-right {
+    vertical-align: top;
+    padding-left: 8vw;
+    padding-top: 60px;
+    font-size: 1.5vw;
+    font-family: "Georgia";
+    line-height: 30px;
+}
+
+.map-image {
+    float: left;
+    width: 33vw;
+    height: auto;
+    padding-left: 10vw;
+    padding-right: 3vw;
+    padding-top: 20px;
+}
+
+.hours-location-text {
+    vertical-align: top;
+    padding-left: 8vw;
+    padding-top: 60px;
+    font-size: 1.5vw;
+    font-family: "Georgia";
+    line-height: 30px;
+}
+
+.dropdown {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 40px;
+    width: 33vw;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 1.5vw;
+    
+}
+
+select option.selected {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.container:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.container img {
+    max-width: 40%;
+    height: auto;
+}
+
+.container .text {
+    max-width: 50%;
+    vertical-align: top;
+    padding-top: 60px;
+    font-size: 1.5vw;
+    font-family: "Georgia";
+    line-height: 30px;
+}
