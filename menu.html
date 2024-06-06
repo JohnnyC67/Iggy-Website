@@ -8,16 +8,16 @@
     <script src="experiment.js"></script>
     <link rel="icon" href="Images/Iggy's Logo.png" type="image/png">
 </head>
-<body>
-    <div class="top-section" style="background-color: rgb(255, 255, 255);"> <!--Top section of the website-->
-        <button class="top-section-button" onclick="toAboutUs()"><b>About Us</b></button>
-        <image src="Images/Iggy's Logo.png" class="top-section-image" onclick="toMain()"></image>
-        <button class="top-section-button" onclick="toHoursAndLocation()"><b>Hours & Location</b></button>
+<body style="margin-bottom: 0;">
+    <div class="top-section"> <!--Top section of the website-->
+        <image src="Images/Iggy's Logo.png" class="logo" onclick="toMain()"></image>
+        <image src="Images/Instagram.png" class="top-section-image"></image>
+        <image src="Images/Facebook.jpg" class="top-section-image"></image>
     </div>
     <br>
     <hr style="width: 90%"></hr>
 
-    <div class="container"> <!--Image w/text block-->
+    <div class="container" style="margin-top: 50px;"> <!--Image w/text block-->
         <img src="Images/Bar.jpg">
         <div class="text"><b>
             This is some text I put next to an image to develop element positioning skills. HTML demands not only the correct usage of margin/border/padding,
@@ -27,7 +27,7 @@
         </b></div>
     </div>
 
-    <div class="container"> <!--Image w/text block-->
+    <div class="container" style="margin-top: 50px;"> <!--Image w/text block-->
         <img src="Images/Hockey.jpg">
         <div class="text"><b>
             This is some text I put next to an image to develop element positioning skills. HTML demands not only the correct usage of margin/border/padding,
@@ -37,161 +37,159 @@
         </b></div>
     </div>
     
-    <div class="beer-section"> <!-- Beer Section -->
+    <section class="beer-section" style="padding-bottom: 0px;"> <!-- Beer Section -->
         <div class="row">
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Albino Stout Nitro.jpg">
                 <div class="text">
                     Albino Stout Nitro
                 </div>
-                <div class="text">
+                <div class="subtext">
                     Stout - 5.4% ABV
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Daybreak.jpg">
                 <div class="text">
                     Daybreak
                 </div>
-                <div class="text">
+                <div class="subtext">
                     Cream Ale - 5% ABV
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Dream Boat.jpg">
                 <div class="text">
                     Dream Boat
                 </div>
-                <div class="text">
+                <div class="subtext">
                     Oatmeal Stout - 5.2% ABV
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Everyday Escape.jpg">
                 <div class="text">
                     Everyday Escape
                 </div>
-                <div class="text">
+                <div class="subtext">
                     English Porter - 4.8% ABV
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Gadget.jpg">
                 <div class="text">
                     Gadget
                 </div>
-                <div class="text">
+                <div class="subtext">
                     Fruit Sour - 8% ABV
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Goggle Fogger Hefe Weizen.jpg">
                 <div class="text">
                     Goggle Fogger Hefe Weizen
                 </div>
-                <div class="text">
+                <div class="subtext">
                     Wheat Beer - 5.4% ABV 
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/High Life.jpg">
                 <div class="text">
                     High Life
                 </div>
-                <div class="text">
+                <div class="subtext">
                     American Lager - 4.6% ABV
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Midwest IPA.jpg">
                 <div class="text">
                     Midwest IPA
                 </div>
-                <div class="text">
+                <div class="subtext">
                     American IPA - 7% ABV
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Modelo Especial.jpg">
                 <div class="text">
                     Modelo Especial
                 </div>
-                <div class="text">
+                <div class="subtext">
                     Mexican Lager - 4.5% ABV
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Narragansett Lager.jpg">
                 <div class="text">
                     Narragansett Lager
                 </div>
-                <div class="text">
+                <div class="subtext">
                     American Lager - 5% ABV 
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Pack IPA.jpg">
                 <div class="text">
                     Pack IPA
                 </div>
-                <div class="text">
+                <div class="subtext">
                     American IPA - 6.8% ABV
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Pretty Bird.jpg">
                 <div class="text">
                     Pretty Bird
                 </div>
-                <div class="text">
+                <div class="subtext">
                     American Pale Ale - 5.6% ABV
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Ricky.jpg">
                 <div class="text">
                     Ricky
                 </div>
-                <div class="text">
+                <div class="subtext">
                     Golden Ale - 4.5% ABV
                 </div>
             </div>
-            <div class="cell">
+            <div class="cell-format">
                 <img src="Images/Ruby Red Kolsch.jpg">
-                <div class="text">
-                    Ruby Red Kolsch
-                </div>
-                <div class="text">
-                    Kolsch - 4.5% ABV
-                </div>
+                    <div class="text">
+                        Ruby Red Kolsch
+                    </div>
+                    <div class="subtext">
+                        Kolsch - 4.5% ABV
+                    </div>
             </div>
         </div>
-    </div>
-
-    <div class="container"> <!--Image w/text block-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5978.532799411208!2d-81.7855508!3d41.4768239!2m3!1f0!2f0
-        !3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830f204c9ca36e1%3A0x87134e524f4cf08b!2sIggy&#39;s%20Bar!5e0!3m2!1sen!2sus!4v171440
-        3405209!5m2!1sen!2sus" class="map" style="border:0;" allowfullscreen="" loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="text">
-            13405 Madison Ave, Lakewood, OH 44107 <br>
-            <br>
-            <b>Sunday:</b> 4PM - 12PM <br>
-            <b>Monday:</b> 4PM - 1AM <br>
-            <b>Tuesday:</b> 4PM - 1AM <br>
-            <b>Wednesday:</b> 4PM - 1AM <br>
-            <b>Thursday:</b> 4PM - 1AM <br>
-            <b>Friday:</b> 4PM - 2:30AM <br>
-            <b>Saturday:</b> 4PM - 2:30AM <br>
-            <br>
-            <b>Call us:</b> <a href="tel:+14402510357">(440) 251-0357</a>
+    </section>
+    
+    <section style="background-color: rgb(60, 60, 60); padding-top: 2vw; padding-bottom: 2vw;">
+        <div class="container"> <!--Image w/text block-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5978.532799411208!2d-81.7855508!3d41.4768239!2m3!1f0!2f0
+            !3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830f204c9ca36e1%3A0x87134e524f4cf08b!2sIggy&#39;s%20Bar!5e0!3m2!1sen!2sus!4v171440
+            3405209!5m2!1sen!2sus" class="map" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="text" style="color: white;">
+                <b>Madison Ave, Lakewood, OH 44107</b><br>
+                <br>
+                <p><b>Monday thru Thursday:</b> 4PM - 1AM </p>
+                <p><b>Friday & Saturday:</b> 4PM - 2:30AM </p>
+                <p><b>Sunday:</b> 4PM - 12PM </p>
+                <br>
+                <b>Call us:</b> <a href="tel:+14402510357"><span style="color: rgb(160, 160, 255); text-decoration: underline; text-decoration-color: rgb(160, 160, 255);">(440) 251-0357</span></a>
+            </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
