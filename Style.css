@@ -32,17 +32,22 @@ body {
     background-color:rgb(0, 0, 0);
     width: 100%;
     text-align: center;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    /*padding-top: 1vw;
+    padding-bottom: 1vw;*/
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
 }
 
 .top-section .logo {
     height: auto;
-    max-height: 10vw;
-    display: inline-block;
+    max-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .top-section-image {
@@ -51,6 +56,20 @@ body {
     position: relative;
     margin: 0.5vw;
     left: 30%;
+    background-color:rgb(0, 0, 0, 0);
+    transition: background-color .2s;
+    padding: 0.5vw;
+    opacity: 90%;
+    gap: 10px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.top-section-image:hover {
+    transform: scale(1.1);
+    background-color:rgb(30, 30, 30);
+    transition: transform 0.2s;
+    cursor: pointer;
 }
 
 .top-section-button {
@@ -152,11 +171,11 @@ body {
 
 .hours-location-text {
     vertical-align: top;
-    padding-left: 8vw;
+    padding-left: 4vh;
     padding-top: 60px;
     font-size: 1.5vw;
     font-family: "Futura";
-    line-height: 30px;
+    line-height: 5vh;
 }
 
 /* Body - Events Page */
@@ -179,7 +198,7 @@ select option.selected {
 .map {
     max-width: 100%;
     width: 33vw;
-    height: 33vw;
+    height: 75vh;
 }
 
 /* Body - Beer Section */
@@ -187,14 +206,18 @@ select option.selected {
 .beer-section {
     background-image: URL("Images/Iggy\'s\ Logo.png");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: gray;
-    justify-content: space-between;
-    margin-top: 20px;
-    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .beer-section img {
-    max-width: 100%;
+    max-width: 10vw;
     height: auto;
     box-sizing: border-box;
     border: 1.5px;
@@ -205,6 +228,7 @@ select option.selected {
 .beer-section .row {
     flex-direction: row;
     display: flex;
+    padding-bottom: 4vh;
 }
 
 .beer-section .cell-format {
@@ -224,17 +248,17 @@ select option.selected {
     font-size: 1.5vw;
     font-family: Futura;
     font-weight: bold;
+    color: black;
     line-height: 30px;
-    margin-top: 5px;
+    margin-top: 2vh;
     box-sizing: border-box;
 }
 
-.beer-secton .subtext {
+.beer-section .subtext {
     font-size: 1vw;
     font-family: Futura;
     font-weight: bold;
     line-height: 30px;
-    margin-top: 5px;
     box-sizing: border-box;
 }
 
